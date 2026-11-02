@@ -14,6 +14,9 @@
 | 支付 | 微信支付（云开发 CloudPay） |
 | 桌台码 | 微信小程序码（`wxacode.getUnlimited`） |
 
+## 预览
+
+
 ## 目录结构
 
 ```
