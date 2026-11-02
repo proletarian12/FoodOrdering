@@ -1,0 +1,88 @@
+{
+    "pages": [
+        {
+            "path": "pages/index/index",
+            "style": { "navigationBarTitleText": "点餐" }
+        },
+        {
+            "path": "pages/dish/dish",
+            "style": { "navigationBarTitleText": "菜品详情" }
+        },
+        {
+            "path": "pages/checkout/checkout",
+            "style": { "navigationBarTitleText": "确认订单" }
+        },
+        {
+            "path": "pages/orders/orders",
+            "style": { "navigationBarTitleText": "我的订单" }
+        },
+        {
+            "path": "pages/order-detail/order-detail",
+            "style": { "navigationBarTitleText": "订单详情" }
+        },
+        {
+            "path": "pages/mine/mine",
+            "style": { "navigationBarTitleText": "个人中心" }
+        }
+    ],
+    "subPackages": [
+        {
+            "root": "pages/merchant",
+            "pages": [
+                {
+                    "path": "login/login",
+                    "style": { "navigationBarTitleText": "商家登录" }
+                },
+                {
+                    "path": "home/home",
+                    "style": { "navigationBarTitleText": "商家工作台" }
+                },
+                {
+                    "path": "dish-manage/dish-manage",
+                    "style": { "navigationBarTitleText": "菜品管理" }
+                },
+                {
+                    "path": "dish-edit/dish-edit",
+                    "style": { "navigationBarTitleText": "编辑菜品" }
+                },
+                {
+                    "path": "category-manage/category-manage",
+                    "style": { "navigationBarTitleText": "分类管理" }
+                },
+                {
+                    "path": "order-manage/order-manage",
+                    "style": { "navigationBarTitleText": "订单管理" }
+                },
+                {
+                    "path": "table-manage/table-manage",
+                    "style": { "navigationBarTitleText": "桌台管理" }
+                },
+                {
+                    "path": "settings/settings",
+                    "style": { "navigationBarTitleText": "营业设置" }
+                },
+                {
+                    "path": "stats/stats",
+                    "style": { "navigationBarTitleText": "数据统计" }
+                }
+            ]
+        }
+    ],
+    "tabBar": {
+        "color": "#999999",
+        "selectedColor": "#FF6B35",
+        "backgroundColor": "#ffffff",
+        "borderStyle": "black",
+        "list": [
+            { "pagePath": "pages/index/index", "text": "点餐" },
+            { "pagePath": "pages/orders/orders", "text": "订单" },
+            { "pagePath": "pages/mine/mine", "text": "我的" }
+        ]
+    },
+    "globalStyle": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "点餐",
+        "navigationBarBackgroundColor": "#FF6B35",
+        "backgroundColor": "#F5F5F5"
+    }
+}
