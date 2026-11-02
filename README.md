@@ -15,9 +15,9 @@
 | 桌台码 | 微信小程序码（`wxacode.getUnlimited`） |
 
 ## 界面预览
-(src/static/1.png)
-(src/static/2.png)
-(src/static/3.png)
+!1(src/static/1.png)
+!2(src/static/2.png)
+!3(src/static/3.png)
 
 ## 目录结构
 
